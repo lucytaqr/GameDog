@@ -3868,7 +3868,6 @@ GameObject:
   - component: {fileID: 647662875}
   - component: {fileID: 647662877}
   - component: {fileID: 647662878}
-  - component: {fileID: 647662880}
   - component: {fileID: 647662879}
   - component: {fileID: 647662881}
   - component: {fileID: 647662882}
@@ -4073,18 +4072,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cherriesText: {fileID: 1362505568}
   collectionSoundEffect: {fileID: 647662884}
---- !u!114 &647662880
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 647662872}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70b09c1c74660f64f95db62a7f1d25ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &647662881
 MonoBehaviour:
   m_ObjectHideFlags: 0

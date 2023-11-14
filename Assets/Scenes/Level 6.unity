@@ -6821,8 +6821,8 @@ GameObject:
   - component: {fileID: 647662881}
   - component: {fileID: 647662882}
   - component: {fileID: 647662884}
-  - component: {fileID: 647662885}
   - component: {fileID: 647662883}
+  - component: {fileID: 647662885}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -7322,7 +7322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cherriesText: {fileID: 1362505568}
-  collectionSoundEffect: {fileID: 0}
+  collectionSoundEffect: {fileID: 647662882}
 --- !u!1 &930740656
 GameObject:
   m_ObjectHideFlags: 0

@@ -3905,6 +3905,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 488551c830fb95d4c87e5e70cbe13a70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cherries: 5
+  Finish: {fileID: 351684407}
+  FinishText: {fileID: 695087483}
   cherriesText: {fileID: 1362505568}
   collectionSoundEffect: {fileID: 647662884}
 --- !u!114 &647662880
@@ -4419,7 +4422,7 @@ GameObject:
   - component: {fileID: 695087484}
   - component: {fileID: 695087486}
   m_Layer: 0
-  m_Name: Finish Text
+  m_Name: FinishText
   m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

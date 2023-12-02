@@ -6,7 +6,9 @@ using TMPro;
 public class ItemCollection : MonoBehaviour
 {
 
-    private int cherries = 0;
+    public int cherries = 0;
+    public GameObject Finish;
+    public GameObject FinishText;
 
     [SerializeField] private TMP_Text cherriesText;
 
@@ -17,8 +19,21 @@ public class ItemCollection : MonoBehaviour
         {
             collectionSoundEffect.Play();
             Destroy(collision.gameObject);
-            cherries++;
+            cherries--;
             cherriesText.text = "Score : " + cherries;
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (cherries != 0)
+        {
+            Finish.SetActive(false);
+            FinishText.SetActive(false);
+        }
+        else
+        {
+            Finish.SetActive(true);
+            FinishText.SetActive(true);
         }
     }
 }

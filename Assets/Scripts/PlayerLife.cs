@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
+
 public class PlayerLife : MonoBehaviour
 {
 
     private Rigidbody2D rb;
     private Animator anim;
+    public GameObject CanvasFinish;
 
     [SerializeField] private AudioSource deathSoundEffect;
     private void Start()
@@ -26,6 +29,15 @@ public class PlayerLife : MonoBehaviour
         {
             Die();
         }
+        
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Finish")
+        {
+            CanvasFinish.SetActive(true);
+            Time.timeScale = 0;
+        }   
     }
 
     private void Die()

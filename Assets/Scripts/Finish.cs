@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class Finish : MonoBehaviour
 {
     private AudioSource finishSound;
 
     private bool levelCompleted = false;
+
+    
 
 
     private void Start()
@@ -24,11 +27,12 @@ public class Finish : MonoBehaviour
             levelCompleted = true;
             Invoke("CompleteLevel", 2f);
         }
+        
     }
 
-    private void CompleteLevel()
+    public void NextLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(1);
 
     }
 

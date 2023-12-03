@@ -10,6 +10,7 @@ public class PlayerLife : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     public GameObject CanvasFinish;
+    public GameObject CanvasKalah;
 
     [SerializeField] private AudioSource deathSoundEffect;
     private void Start()
@@ -29,6 +30,10 @@ public class PlayerLife : MonoBehaviour
         {
             Die();
         }
+        if (collision.gameObject.CompareTag("Bomb"))
+        {
+            gameOver();
+        }
         
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -45,6 +50,14 @@ public class PlayerLife : MonoBehaviour
         deathSoundEffect.Play();
         rb.bodyType = RigidbodyType2D.Static;
         anim.SetTrigger("death");
+    }
+
+    private void gameOver()
+    {
+        deathSoundEffect.Play();
+        rb.bodyType = RigidbodyType2D.Static;
+        CanvasKalah.SetActive(true);
+
     }
 
     private void RestartLevel()

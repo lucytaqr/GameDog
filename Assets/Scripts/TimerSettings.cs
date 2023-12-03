@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 public class TimerSettings : MonoBehaviour
 {
 
@@ -21,8 +23,6 @@ public class TimerSettings : MonoBehaviour
     private void Update()
     {
         
-
-
         if(GameAktif)
         {
             s += Time.deltaTime;
@@ -38,14 +38,16 @@ public class TimerSettings : MonoBehaviour
             Debug.Log("Game Kalah");
             CanvasKalah.SetActive(true);
             GameAktif = false;
+            Time.timeScale = 0;
         }
-
-
-
-
 
          SetText();
 
+    }
+
+    public void QuitLevel()
+    {
+        SceneManager.LoadScene(0);
 
     }
 }

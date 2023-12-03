@@ -32,7 +32,7 @@ public class Finish : MonoBehaviour
 
     public void NextLevel()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
 
     }
 

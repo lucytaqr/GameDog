@@ -11,7 +11,7 @@ public class TestScript : MonoBehaviour
         OpenConfirmationWindow("Level 1 kumpulkan 5 items yang ada!");
     }
 
-    private void OpenConfirmationWindow(string message)
+    public void OpenConfirmationWindow(string message)
     {
         myConfirmationWindow.gameObject.SetActive(true);
         myConfirmationWindow.yesButton.onClick.AddListener(YesClicked);

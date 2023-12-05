@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6469499973977081979
 RectTransform:
   m_ObjectHideFlags: 0
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Level 1 \n\nKumpulkan 5 items yang telah disediakan pada game!"
+  m_text: Level 1 kumpulkan 5 items yang ada!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9e068285d450c804488911c7fc5dd807, type: 2}
   m_sharedMaterial: {fileID: 5092156051854957663, guid: 9e068285d450c804488911c7fc5dd807, type: 2}

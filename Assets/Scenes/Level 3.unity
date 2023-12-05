@@ -4070,6 +4070,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 488551c830fb95d4c87e5e70cbe13a70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cherries: 0
+  Finish: {fileID: 0}
+  FinishText: {fileID: 0}
   cherriesText: {fileID: 1362505568}
   collectionSoundEffect: {fileID: 647662884}
 --- !u!114 &647662881
@@ -4084,6 +4087,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17ff8fc0a13fff14f98f12184db0797b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CanvasFinish: {fileID: 0}
+  CanvasKalah: {fileID: 0}
   deathSoundEffect: {fileID: 647662883}
 --- !u!82 &647662882
 AudioSource:

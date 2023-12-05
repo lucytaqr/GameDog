@@ -5,10 +5,11 @@ using UnityEngine;
 public class TestScript : MonoBehaviour
 {
     [SerializeField] private ConfirmationWindow myConfirmationWindow;
+    public string desc ="";
     // Start is called before the first frame update
     void Start()
     {
-        OpenConfirmationWindow("Level 1 kumpulkan 5 items yang ada!");
+        OpenConfirmationWindow(desc);
     }
 
     public void OpenConfirmationWindow(string message)

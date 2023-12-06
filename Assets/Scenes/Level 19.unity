@@ -5320,11 +5320,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1714979218}
     m_Modifications:
     - target: {fileID: 3641270896152796076, guid: a1b2bde97460ade4b9839eff678a5185, type: 3}
       propertyPath: m_Name
-      value: Canvas (1)
+      value: CanvasPause
       objectReference: {fileID: 0}
     - target: {fileID: 5673417152180287246, guid: a1b2bde97460ade4b9839eff678a5185, type: 3}
       propertyPath: m_Pivot.x
@@ -9487,6 +9487,7 @@ Transform:
   - {fileID: 1999596258}
   - {fileID: 733098072}
   - {fileID: 2043367699}
+  - {fileID: 541432059}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1719749083
@@ -38321,4 +38322,3 @@ SceneRoots:
   - {fileID: 722921964}
   - {fileID: 336762469}
   - {fileID: 1120955940}
-  - {fileID: 541432058}

@@ -4883,7 +4883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 488551c830fb95d4c87e5e70cbe13a70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cherries: 0
+  cherries: 14
   Finish: {fileID: 1902619703}
   FinishText: {fileID: 1056191728}
   cherriesText: {fileID: 1362505568}
@@ -5743,7 +5743,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7514285260047958279, guid: 27184d8d2d291574b9e6093f1aa56117, type: 3}
       propertyPath: desc
-      value: 'Level 4 '
+      value: Mouse adalah perangkat input yang digunakan untuk mengontrol kursor
+        pada layar komputer. Mouse biasanya memiliki bentuk kecil yang dirancang
+        untuk ditempatkan di tangan pengguna. Perangkat ini dilengkapi dengan tombol
+        dan roda (scroll wheel) yang memungkinkan pengguna untuk berinteraksi dengan
+        antarmuka grafis pada layar.
       objectReference: {fileID: 0}
     - target: {fileID: 7514285260047958279, guid: 27184d8d2d291574b9e6093f1aa56117, type: 3}
       propertyPath: myConfirmationWindow
@@ -5971,7 +5975,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Score: 0'
+  m_text: 'Score: 14'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 191178aca1092884ab38801fc129b001, type: 2}
   m_sharedMaterial: {fileID: -5895902514659887373, guid: 191178aca1092884ab38801fc129b001, type: 2}
@@ -32242,6 +32246,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: ConfirmationWindow
       objectReference: {fileID: 0}
+    - target: {fileID: 1732529742249168330, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 09c3ed50cc5a39b48b829235a5aa3353, type: 3}
+    - target: {fileID: 2176275286594252072, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176275286594252072, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2185001268114205941, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -200
+      objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -32268,11 +32288,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -1055.814
+      value: -1044.994
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -444.91
+      value: -416.438
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32304,11 +32324,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 9.491028
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.000030517578
+      value: -47.09903
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -32321,6 +32341,22 @@ PrefabInstance:
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210306973439723130, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_fontSize
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210306973439723130, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_margin.z
+      value: -193.69818
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210306973439723130, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 9182004212423762203, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_Text
+      value: Temukan Mouse!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

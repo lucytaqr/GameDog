@@ -7347,7 +7347,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7514285260047958279, guid: 27184d8d2d291574b9e6093f1aa56117, type: 3}
       propertyPath: desc
-      value: Level 5
+      value: Printer adalah perangkat output yang digunakan untuk mencetak dokumen
+        atau gambar dari komputer ke media fisik, seperti kertas atau kartu. Printer
+        bekerja dengan cara menghasilkan salinan cetakan dari data yang ada di dalam
+        file digital.
       objectReference: {fileID: 0}
     - target: {fileID: 7514285260047958279, guid: 27184d8d2d291574b9e6093f1aa56117, type: 3}
       propertyPath: myConfirmationWindow
@@ -7818,7 +7821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 488551c830fb95d4c87e5e70cbe13a70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cherries: 0
+  cherries: 17
   Finish: {fileID: 1082980920}
   FinishText: {fileID: 1545589564}
   cherriesText: {fileID: 1362505568}
@@ -8371,6 +8374,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: ConfirmationWindow
       objectReference: {fileID: 0}
+    - target: {fileID: 518729282969834288, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -137
+      objectReference: {fileID: 0}
+    - target: {fileID: 1732529742249168330, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dc1af91c3e58c4649b73eab94b0f3e2d, type: 3}
+    - target: {fileID: 2176275286594252072, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 52
+      objectReference: {fileID: 0}
+    - target: {fileID: 2185001268114205941, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 262
+      objectReference: {fileID: 0}
+    - target: {fileID: 2185001268114205941, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -177
+      objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -8397,7 +8420,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -1055.814
+      value: -1058.519
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_SizeDelta.y
@@ -8433,11 +8456,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.000030517578
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8450,6 +8473,25 @@ PrefabInstance:
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210306973439723130, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_text
+      value: Printer adalah perangkat output yang digunakan untuk mencetak dokumen
+        atau gambar dari komputer ke media fisik, seperti kertas atau kartu. Printer
+        bekerja dengan cara menghasilkan salinan cetakan dari data yang ada di dalam
+        file digital.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210306973439723130, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_margin.x
+      value: -172.89871
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210306973439723130, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_margin.z
+      value: -189.68286
+      objectReference: {fileID: 0}
+    - target: {fileID: 9182004212423762203, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_Text
+      value: Temukan Printer!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8623,7 +8665,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Score: 0'
+  m_text: 'Score: 17'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 191178aca1092884ab38801fc129b001, type: 2}
   m_sharedMaterial: {fileID: -5895902514659887373, guid: 191178aca1092884ab38801fc129b001, type: 2}

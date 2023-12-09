@@ -6,6 +6,7 @@ public class TestScript : MonoBehaviour
 {
     [SerializeField] private ConfirmationWindow myConfirmationWindow;
     public string desc ="";
+    
     // Start is called before the first frame update
     void Start()
     {

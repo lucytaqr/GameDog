@@ -5920,7 +5920,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7514285260047958279, guid: 27184d8d2d291574b9e6093f1aa56117, type: 3}
       propertyPath: desc
-      value: anjoyyyy
+      value: Temukan 10 CPU dalam waktu 02.30 menit! awas ada bom!
       objectReference: {fileID: 0}
     - target: {fileID: 7514285260047958279, guid: 27184d8d2d291574b9e6093f1aa56117, type: 3}
       propertyPath: myConfirmationWindow
@@ -6564,9 +6564,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: ConfirmationWindow
       objectReference: {fileID: 0}
+    - target: {fileID: 518729282969834288, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 518729282969834288, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1732529742249168330, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f4020a5cc13459844a622374671425a0, type: 3}
     - target: {fileID: 2176275286594252072, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -4
+      value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 2185001268114205941, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.42748642
+      objectReference: {fileID: 0}
+    - target: {fileID: 2185001268114205941, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 226
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_Pivot.x
@@ -6594,11 +6614,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -1055.814
+      value: -1209.099
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -444.91
+      value: -496.856
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6630,11 +6650,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.000030517578
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6647,6 +6667,24 @@ PrefabInstance:
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210306973439723130, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_text
+      value: 'Temukan 10 CPU dalam waktu 2.5 menit!
+
+        awas ada bom!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210306973439723130, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_margin.x
+      value: -73.8237
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210306973439723130, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_margin.z
+      value: -85.16272
+      objectReference: {fileID: 0}
+    - target: {fileID: 9182004212423762203, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_Text
+      value: Let's go!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6796,7 +6834,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Score: 0'
+  m_text: 'Score: 10'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 191178aca1092884ab38801fc129b001, type: 2}
   m_sharedMaterial: {fileID: -5895902514659887373, guid: 191178aca1092884ab38801fc129b001, type: 2}

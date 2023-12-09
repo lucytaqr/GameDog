@@ -4819,7 +4819,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Score: 0'
+  m_text: 'Score: 5'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 191178aca1092884ab38801fc129b001, type: 2}
   m_sharedMaterial: {fileID: -5895902514659887373, guid: 191178aca1092884ab38801fc129b001, type: 2}
@@ -31248,7 +31248,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2707911787453240629, guid: 27184d8d2d291574b9e6093f1aa56117, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 333.9524
+      value: 363
       objectReference: {fileID: 0}
     - target: {fileID: 2707911787453240629, guid: 27184d8d2d291574b9e6093f1aa56117, type: 3}
       propertyPath: m_LocalPosition.y
@@ -31288,7 +31288,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7514285260047958279, guid: 27184d8d2d291574b9e6093f1aa56117, type: 3}
       propertyPath: desc
-      value: uhuyy level 1
+      value: CPU adalah singkatan dari Central Processing Unit, yang dalam bahasa
+        Indonesia dikenal sebagai Unit Pemrosesan Pusat. CPU merupakan salah satu
+        komponen utama dalam sebuah komputer yang bertanggung jawab untuk menjalankan
+        instruksi-instruksi yang diberikan oleh program-program komputer. CPU berfungsi
+        sebagai otak atau "pemroses" utama dalam sistem komputer.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7514285260047958279, guid: 27184d8d2d291574b9e6093f1aa56117, type: 3}
+      propertyPath: desc1
+      value: CPU adalah singkatan dari Central Processing Unit, yang dalam bahasa
+        Indonesia dikenal sebagai Unit Pemrosesan Pusat. CPU merupakan salah satu
+        komponen utama dalam sebuah komputer yang bertanggung jawab untuk menjalankan
+        instruksi-instruksi yang diberikan oleh program-program komputer. CPU berfungsi
+        sebagai otak atau "pemroses" utama dalam sistem komputer.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7514285260047958279, guid: 27184d8d2d291574b9e6093f1aa56117, type: 3}
+      propertyPath: desc2
+      value: CPU adalah singkatan dari Central Processing Unit, yang dalam bahasa
+        Indonesia dikenal sebagai Unit Pemrosesan Pusat. CPU merupakan salah satu
+        komponen utama dalam sebuah komputer yang bertanggung jawab untuk menjalankan
+        instruksi-instruksi yang diberikan oleh program-program komputer. CPU berfungsi
+        sebagai otak atau "pemroses" utama dalam sistem komputer.
       objectReference: {fileID: 0}
     - target: {fileID: 7514285260047958279, guid: 27184d8d2d291574b9e6093f1aa56117, type: 3}
       propertyPath: level
@@ -31311,9 +31331,85 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 953092314}
     m_Modifications:
+    - target: {fileID: 162927370253736859, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -55.757
+      objectReference: {fileID: 0}
+    - target: {fileID: 162927370253736859, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 162927370253736859, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 162927370253736859, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 369592312719420185, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_Name
       value: ConfirmationWindow
+      objectReference: {fileID: 0}
+    - target: {fileID: 518729282969834288, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -377
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176275286594252072, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1247.8064
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176275286594252072, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 373.351
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176275286594252072, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.63753
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176275286594252072, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -4.0153
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176275286594252072, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 2185001268114205941, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 359.2319
+      objectReference: {fileID: 0}
+    - target: {fileID: 2185001268114205941, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 64.769
+      objectReference: {fileID: 0}
+    - target: {fileID: 2185001268114205941, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.748144
+      objectReference: {fileID: 0}
+    - target: {fileID: 2185001268114205941, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 267.2609
+      objectReference: {fileID: 0}
+    - target: {fileID: 2185001268114205941, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -211
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704379371331469598, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_Color.a
+      value: 0.9490196
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704379371331469598, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_Color.b
+      value: 0.09019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704379371331469598, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_Color.g
+      value: 0.17254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704379371331469598, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_Color.r
+      value: 0.25490198
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_Pivot.x
@@ -31341,11 +31437,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -1055.814
+      value: -1019.789
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -444.91
+      value: -344.252
+      objectReference: {fileID: 0}
+    - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.7125
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31377,11 +31477,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.000030517578
+      value: -8.118011
       objectReference: {fileID: 0}
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -31394,6 +31494,32 @@ PrefabInstance:
     - target: {fileID: 6469499973977081979, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210306973439723130, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_text
+      value: 'HIHIHI
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210306973439723130, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_fontSize
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210306973439723130, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_margin.x
+      value: 3.3188746
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210306973439723130, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_margin.z
+      value: -1.0879478
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210306973439723130, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 9182004212423762203, guid: ee3960350e8925d4dbaebfbb55e767e1, type: 3}
+      propertyPath: m_Text
+      value: TEMUKAN CPU!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

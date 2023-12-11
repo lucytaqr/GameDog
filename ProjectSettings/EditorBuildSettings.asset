@@ -56,6 +56,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 16.unity
     guid: 2615136635a8c144994b731f62e83ca9
+  - enabled: 1
+    path: Assets/Scenes/Level 17.unity
+    guid: 50b110fee5a0c284d87eca9c5e3207e7
+  - enabled: 1
+    path: Assets/Scenes/Level 18.unity
+    guid: dc65ac9d83ff0b34fa966cbcb92e19b3
+  - enabled: 1
+    path: Assets/Scenes/Level 19.unity
+    guid: 7688fe7bd823b0348b1da7d1779b617d
+  - enabled: 1
+    path: Assets/Scenes/Level 20.unity
+    guid: 262ff63e2c545734596524ab995ea7ae
   - enabled: 0
     path: Assets/Scenes/coba aja.unity
     guid: 21263134f2d8796408627740c0c7bd17

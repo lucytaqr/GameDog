@@ -2783,21 +2783,21 @@ MonoBehaviour:
   - {fileID: 830006505}
   - {fileID: 2107575087}
   - {fileID: 1875687000}
-  - {fileID: 111234902}
-  - {fileID: 231854961}
-  - {fileID: 276759812}
-  - {fileID: 643344213}
-  - {fileID: 2097736338}
-  - {fileID: 1965617132}
-  - {fileID: 628130402}
-  - {fileID: 310058103}
-  - {fileID: 1625738104}
-  - {fileID: 854970889}
-  - {fileID: 1237796743}
-  - {fileID: 1719069810}
-  - {fileID: 618356772}
-  - {fileID: 1396734643}
-  levelbuttons: {fileID: 0}
+  - {fileID: 899285528}
+  - {fileID: 899285528}
+  - {fileID: 899285528}
+  - {fileID: 899285528}
+  - {fileID: 899285528}
+  - {fileID: 899285528}
+  - {fileID: 899285528}
+  - {fileID: 899285528}
+  - {fileID: 899285528}
+  - {fileID: 899285528}
+  - {fileID: 899285528}
+  - {fileID: 899285528}
+  - {fileID: 899285528}
+  - {fileID: 899285528}
+  levelbuttons: {fileID: 1930086538}
 --- !u!1 &770325238
 GameObject:
   m_ObjectHideFlags: 0

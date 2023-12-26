@@ -7504,7 +7504,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 650, y: -27}
+  m_AnchoredPosition: {x: 720, y: -27}
   m_SizeDelta: {x: 164.4547, y: 17.416794}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1362505568
@@ -7658,7 +7658,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7514285260047958279, guid: 27184d8d2d291574b9e6093f1aa56117, type: 3}
       propertyPath: desc
-      value: Temukan 10 printer dalam waktu 00.30 detik!
+      value: Temukan 10 printer dalam waktu 01.00 detik!
       objectReference: {fileID: 0}
     - target: {fileID: 7514285260047958279, guid: 27184d8d2d291574b9e6093f1aa56117, type: 3}
       propertyPath: myConfirmationWindow
@@ -33298,7 +33298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -33781,7 +33781,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -297, y: 155}
+  m_AnchoredPosition: {x: -335, y: 177}
   m_SizeDelta: {x: 91.1333, y: 18.5547}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &348323686143058212
@@ -33865,7 +33865,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 881840931958393050, guid: b5ef8b53684956c4e981baef095496ee, type: 3}
       propertyPath: Waktu
-      value: 30
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 881840931958393050, guid: b5ef8b53684956c4e981baef095496ee, type: 3}
       propertyPath: TextTimer
